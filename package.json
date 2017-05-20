@@ -1,0 +1,34 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "Super duper hospiverso!",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "^1.7.3",
+    "express": "^4.15.2",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresPablo/hospi-verso.git"
+  },
+  "keywords": [
+    "multiplayer",
+    "server",
+    "node",
+    "js",
+    "multimedia",
+    "hospital"
+  ],
+  "author": "Andres Pablo \"Tybex\"",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AndresPablo/hospi-verso/issues"
+  },
+  "homepage": "https://github.com/AndresPablo/hospi-verso#readme"
+}
