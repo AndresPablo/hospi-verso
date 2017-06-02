@@ -64,4 +64,9 @@ io.on('connection', function(socket){
 		delete players[thisPlayerId];
 		socket.broadcast.emit('disconnected', { id: thisPlayerId });
 	});
+	
+	socket.on('message', function(data){
+		console.log('chat: ', data);
+		socket.emit('updateChat', data ); 		
+	});
 })
