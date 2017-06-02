@@ -1,7 +1,7 @@
 {
  "name": "Server Hospiverso",
  "description": "Una app para los nenes",
- "repository": https://github.com/AndresPablo/hospi-verso
+ "repository": "https://github.com/AndresPablo/hospi-verso",
  "logo": "http://node-js-sample.herokuapp.com/node.svg"
  "keywords": ["node", "unity", "hospital"],
  "image": "img/icon.png"
